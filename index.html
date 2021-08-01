@@ -61,7 +61,7 @@
     </section>
 
     <!-- About -->
-    <section id="about" class="section">
+    <section id="about" class="section section__container">
       <h1>About me</h1>
       <p>
         프론트에서 ~ 백엔드에도 관심이 많고 이런이런 프로젝트를 해봤다. 이제
@@ -97,7 +97,6 @@
             <p class="job__name">i was working at twosomeplace as barista</p>
             <p class="job__period">2020 june - until 2020 september</p>
           </div>
-          
         </div>
         <div class="job">
           <img
@@ -106,33 +105,35 @@
             class="job__logo"
           />
           <div class="job__description">
-          <p class="job__name">i was working at twosomeplace as barista</p>
-          <p class="job__period">2020 june - until 2020 september</p>
-        </div>
+            <p class="job__name">i was working at twosomeplace as barista</p>
+            <p class="job__period">2020 june - until 2020 september</p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Skills -->
     <section id="skills" class="section">
-      <h1>Skills</h1>
-      <h2>Skills & Attributes</h2>
-      <p>
-        Experience with all phases of the software life-cycle. Passion for
-        learning new techologies. Capable of working within a team environment
-        and independently. Ability to plan and time schedule. work under strict
-        time pressure and adapt quickly when needed.
-      </p>
-      <div class="skillset">
-        <div class="skillset__left">
-          <h3 class="skillset__title">Skills</h3>
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+          Experience with all phases of the software life-cycle. Passion for
+          learning new techologies. Capable of working within a team environment
+          and independently. Ability to plan and time schedule. work under
+          strict time pressure and adapt quickly when needed.
+        </p>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">Skills</h3>
             <div class="skill">
-            <div class="skill__description">
-              <span>HTML</span>
-              <span>99%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value"></div>
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>99%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 99%"></div>
+              </div>
             </div>
             <div class="skill">
               <div class="skill__description">
@@ -140,121 +141,137 @@
                 <span>70%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value"></div>
+                <div class="skill__value" style="width: 70%"></div>
               </div>
+            </div>
             <div class="skill">
               <div class="skill__description">
                 <span>JavaScript</span>
                 <span>60%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value"></div>
+                <div class="skill__value" style="width: 60%"></div>
               </div>
+            </div>
+
             <div class="skill">
               <div class="skill__description">
                 <span>Node</span>
                 <span>50%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value"></div>
+                <div class="skill__value" style="width: 50%"></div>
               </div>
+            </div>
+            </div>
+          
+
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Visual Studio Code</span></li>
+              </ul>
+            </div>
+
+            <div class="etc">
+              <h3 class="skillset__title">Etc</h3>
+              <ul class="etc__list">
+                <li><span>Git</span></li>
+                <li><span>English</span></li>
+                <li><span>Reading books</span></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="skillset__right">
-          <div class="tools">
-            <h3 class="skillset__title">Tools</h3>
-            <ul class="tools__list">
-              <li><span>Visual Studio Code</span></li>
-            </ul>
-          </div>
-          <div class="etc">
-            <h3 class="skillset__title">Etc</h3>
-            <ul class="etc__list">
-              <li><span>Git</span></li>
-              <li><span>English</span></li>
-              <li><span>Reading books</span></li>
-            </ul>
-          </div>
-        </div>
       </div>
     </section>
+
     <!-- Work -->
     <section id="work" class="section">
       <h1>My work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
-        <button class="category__bth">All<span class="category__count">8</span></button>
-        <button class="category__bth">Front-end<span class="category__count">3</span></button>
-        <button class="category__bth">Back-end<span class="category__count">2</span></button>
+        <button class="category__bth">
+          All<span class="category__count">8</span>
+        </button>
+        <button class="category__bth">
+          Front-end<span class="category__count">3</span>
+        </button>
+        <button class="category__bth">
+          Back-end<span class="category__count">2</span>
+        </button>
       </div>
-        <div class="work__projects">
-          <a 
-          href="https://github.com/eunchanoh/dream_coding.git" 
-          class="project__img" 
+      <div class="work__projects">
+        <a
+          href="https://github.com/eunchanoh/dream_coding.git"
+          class="project__img"
           target="blank"
-          >
-        <img src="imgs/projects/youtube.png" alt="Youtube">
-      <div class="project__description">
-        <h3>Youtube Site</h3>
-        <span>Clone coding with HTML and CSS</span>
-      </div>
-          </a>
-      <a 
-          href="https://github.com/eunchanoh/dream_coding.git" 
-          class="project__img" 
+        >
+          <img src="imgs/projects/youtube.png" alt="Youtube" />
+          <div class="project__description">
+            <h3>Youtube Site</h3>
+            <span>Clone coding with HTML and CSS</span>
+          </div>
+        </a>
+        <a
+          href="https://github.com/eunchanoh/dream_coding.git"
+          class="project__img"
           target="blank"
-          >
-        <img src="imgs/projects/shopping.png" alt="Shopping Mall">
-      <div class="project__description">
-        <h3>Shopping Mall Site</h3>
-        <span>Clone coding with HTML,CSS and JavaScript</span>
-      </div>
-    </a>
-    <a 
-          href="https://github.com/eunchanoh/dream_coding.git" 
-          class="project__img" 
+        >
+          <img src="imgs/projects/shopping.png" alt="Shopping Mall" />
+          <div class="project__description">
+            <h3>Shopping Mall Site</h3>
+            <span>Clone coding with HTML,CSS and JavaScript</span>
+          </div>
+        </a>
+        <a
+          href="https://github.com/eunchanoh/dream_coding.git"
+          class="project__img"
           target="blank"
-          >
-        <img src="imgs/projects/mine.png" alt="Music app">
-      <div class="project__description">
-        <h3>Music Site</h3>
-        <span>Clone coding with HTML,CSS and JavaScript</span>
+        >
+          <img src="imgs/projects/mine.png" alt="Music app" />
+          <div class="project__description">
+            <h3>Music Site</h3>
+            <span>Clone coding with HTML,CSS and JavaScript</span>
+          </div>
+        </a>
       </div>
-    </a>
-      </div>
-      
     </section>
     <!-- Testimonials -->
     <section id="testimonials" class="section">
       <h1>Testimonials</h1>
       <h3>See what they say about me</h3>
       <div class="testimonials">
-        <img 
-          src="imgs/testimonials/people1.png" 
-          alt="People" 
-          class="testimonial__avatar">
-          <div class="testimonial__speech-bubble">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Maiores esse optio veritatis iusto dolorem? Rem est temporibus sint repudiandae, 
-              aliquam repellendus! Itaque ipsum cupiditate 
-              labore exercitationem doloribus ducimus excepturi quam.
-            </p>
-            <p class="name"><a href="Ellie"></a> Samsung</p>
-          </div>
+        <img
+          src="imgs/testimonials/people1.png"
+          alt="People"
+          class="testimonial__avatar"
+        />
+        <div class="testimonial__speech-bubble">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            esse optio veritatis iusto dolorem? Rem est temporibus sint
+            repudiandae, aliquam repellendus! Itaque ipsum cupiditate labore
+            exercitationem doloribus ducimus excepturi quam.
+          </p>
+          <p class="name"><a href="Ellie"></a> Samsung</p>
+        </div>
       </div>
       <div class="testimonials">
-        <img 
-          src="imgs/testimonials/people1.png" 
-          alt="People" 
-          class="testimonial__avatar">
-          <div class="testimonial__speech-bubble">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Maiores esse optio veritatis iusto dolorem? Rem est temporibus sint repudiandae, 
-              aliquam repellendus! Itaque ipsum cupiditate 
-              labore exercitationem doloribus ducimus excepturi quam.
-            </p>
-            <p class="name"><a href="Ellie"></a> Samsung</p>
-          </div>
+        <img
+          src="imgs/testimonials/people1.png"
+          alt="People"
+          class="testimonial__avatar"
+        />
+        <div class="testimonial__speech-bubble">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            esse optio veritatis iusto dolorem? Rem est temporibus sint
+            repudiandae, aliquam repellendus! Itaque ipsum cupiditate labore
+            exercitationem doloribus ducimus excepturi quam.
+          </p>
+          <p class="name"><a href="Ellie"></a> Samsung</p>
+        </div>
       </div>
     </section>
     <!-- Contact -->
@@ -269,9 +286,7 @@
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
-      <p class="contact_rights">
-        2021 Eunchan - All rights reserved
-      </p>
+      <p class="contact_rights">2021 Eunchan - All rights reserved</p>
     </section>
   </body>
 </html>
