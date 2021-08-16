@@ -4,8 +4,8 @@
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-pink: #fe918d;
-  --color-dark-pink: #ff6863;
+  --color-pink: #5c3cde;
+  --color-dark-pink: #5c3cde;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
@@ -128,6 +128,10 @@ p {
   cursor: pointer;
   border-radius: var(--size-border-radius);
   border: 1px solid transparent;
+}
+
+.navbar__menu__item.active {
+  border: 1px solid var(--color-white);
 }
 
 .navbar__menu__item:hover {
